@@ -8,7 +8,7 @@ from openai import OpenAI
 # -------------------- Setup --------------------
 load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY") or st.secrets.get("OPENAI_API_KEY")
-client = OpenAI(api_key=api_key
+client = OpenAI(api_key=api_key)
 
 st.set_page_config(page_title="Travel Advisor", page_icon="🧭", layout="wide")
 
