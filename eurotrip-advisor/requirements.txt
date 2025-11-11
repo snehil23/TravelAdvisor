@@ -1,5 +1,6 @@
 streamlit>=1.51
 beautifulsoup4
+python-dotenv
 requests
 pandas
 numpy
